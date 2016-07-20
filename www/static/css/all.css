@@ -1,0 +1,16 @@
+* ::selection {
+	background: #63869A;
+	color: white;
+}
+#music {
+	width: 210px;
+	height: 393px;
+}
+
+#bamboo {
+	width: 210px;
+	height: 314px;
+	background: url(../image/bamboo/bamboo.png) no-repeat 0 0;
+	background-size: 210px 314px;
+	cursor: move;
+}

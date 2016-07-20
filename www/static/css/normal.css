@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei", "MicrosoftJhengHei";
+}
+* ::selection {
+	background: #63869A;
+	color: #ccc;
+}
+body {
+	color: #51758B;
+}
+#right img {
+	max-width: 250px;
+	max-height: 250px;
+	display: block;
+	margin: 10px auto;
+}
+#right {
+	width: 250px;
+	height: 100%;
+	padding: 10px 25px;
+	text-align: center;
+	background-color: #F3F4EC;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+#left {
+	margin-right: 300px;
+}
+#top {
+	height: 240px;
+	background-image: url(../image/normal/head_background.jpg);
+	background-size: 1600px;
+}
+ul {
+	list-style: none;
+}
+#title {
+	width: 255px;
+	padding: 50px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+#title h2 {
+	font-size: 80px;
+}
+#title p {
+	width: 250px;
+	margin: 0 auto;
+}
+#l {
+	float: left;
+	letter-spacing: 8px;
+}
+#r {
+	float: right;
+	letter-spacing: 8px;
+}
+#title p {
+	font-size: 20px;
+	overflow: hidden;
+}
+
+#article {
+	width: 100%;
+	margin: 0 auto;
+}
+#comment {
+	width: 80%;
+	margin: 0 auto;
+}
+#comment h2 {
+	text-align: center;
+	padding: 50px;
+	color: #35956D;
+}
+#first {
+	margin: 20px 5px;
+}
+
+#second {
+	padding: 5px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+#text {
+	width: 70%;
+	padding: 30px;
+/*这里只是为了测试而设定的高度，推荐加入内容后删除*/
+	margin: 20px auto;
+	text-indent: 2em;
+	line-height: 40px;
+	background-color: #F0F0E3;
+	color: #35956D;
+}
+#guide {
+	width: 80%;
+	border-top: 1px solid #ccc;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#guide-l {
+	float: left;
+}
+#guide-r {
+	float: right;
+}
+#foot {
+	margin: 30px;
+	text-align: center;
+}
+
+.fixed img {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 350px;
+	bottom: 50px;
+}
+#music {
+	position: fixed;
+	right: 10px;
+	bottom: 0;
+}
